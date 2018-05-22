@@ -1,0 +1,5 @@
+<ul>
+<% @songs.each do |song| %>
+  <%= link_to song.new_format, song_path(song) %>
+<%end %>
+</ul>
